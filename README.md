@@ -1,34 +1,14 @@
-# EXPLANATORY DATA ANALYSIS - CAR INVENTORY ANALYSIS PROJECT
+# CAR INVENTORY ANALYSIS PROJECT
 
-The Car Inventory Analysis project is designed to explore and analyze key insights from a dataset containing details about various cars, including their make, model, color, mileage, price, and cost. By applying data analysis and visualization techniques using Pandas, Numpy, Matplotlib, and Seaborn, the project aims to uncover trends, relationships, and key patterns within the dataset.
+ 
+## Table of Content
 
-## Objectives 
-- Clean and preprocess the dataset to ensure data integrity. 
-- Analyze the distribution of car prices to understand pricing trends. 
-- Examine how mileage influences the price of a car. 
-- Visualize the number of cars available by brand and color. 
-- Identify important insights that can help in pricing and inventory management.
-
-  ## Expected Outcomes 
-
-- A comprehensive understanding of the dataset through summary statistics. 
-- Clear visual representations of car price distribution, mileage vs. price trends, and car counts by brand and color. 
-- Identification of key factors affecting car pricing and inventory trends. 
-- Actionable insights for decision-making in car pricing and inventory planning.
-
-  ## Key Questions 
-- What is the general price distribution of cars in the inventory? 
-- How does mileage impact the price of a car? 
-- Which car brands are most commonly available in the inventory? 
-- What are the most popular car colors in the dataset? 
-- Are there any noticeable pricing trends based on car make and mileage?
+- [Project Overview](#project-overview)
+- [Results](#results)
+- [Recommendation](#recommendation)### Project Overview 
 
 
-
-  # CAR INVENTORY ANALYSIS PROJECT
-
-
-  ### Project Overview 
+### Project Overwiew
 
 This Data Analysis Project aims to provide insight from a dataset containing details about various cars, including their make, model, color, mileage, price, and cost. The project aims to uncover trends, relationships, and key patterns within the dataset.
 
@@ -39,8 +19,8 @@ This Data Analysis Project aims to provide insight from a dataset containing det
 - Jupyter Notebook
 
 
-  ### Cleaning and Preprocessing the Dataset
-   To ensure data integrity:
+### Cleaning and Preprocessing the Dataset
+  To ensure data integrity:set
   1. Importing Libraries & Loading Dataset
   2. Checking for missing values
   3. Removing duplicates (if any)
@@ -63,7 +43,8 @@ Code Used
 
 Import Library and Dataset
 
-<pre> import pandas as pd
+<pre> 
+#import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -73,7 +54,6 @@ df = pd.read_excel('Car Inventory.xlsx')  # Ensure the Excel file is in the same
 
 # Display first few rows
 df.head()  </pre>
-
 
 Clean Dataset
 
@@ -99,7 +79,7 @@ Summary of Key Insights from the Car Inventory Analysis Price Trends:
 
 1. Car prices range: The car prices range widely, but most fall between $2,000 – $4,000. The average car price is around $3,000, indicating a focus on affordable used cars.
 2. Mileage vs. Price: Cars with lower mileage generally cost more, which is expected, there are a few high-mileage vehicles priced higher—possibly due to brand value or condition.
- 3. Popular Brands: The most common brands in the inventory are Toyota, Ford, and Chevrolet. This may suggest either high customer demand or dealer preference for these brands.
+3. Popular Brands: The most common brands in the inventory are Toyota, Ford, and Chevrolet. This may suggest either high customer demand or dealer preference for these brands.
 4. Car Color Preferences: Colors like Silver, Black, and White dominate the inventory. This can be useful in restocking and marketing based on color popularity.
 5. Profitability: The average profit margin differs by brand. Brands like Ford and Chevrolet seem to have higher average profits compared to others.
 
